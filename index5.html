@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Firebase Anonymous Authentication</title>
+    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+    <style media="screen">
+      .hide{
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Anonymous Sign In With Firebase</h1>
+    <div class="container">
+      <input id=txtEmail type="email" placeholder="Email? NOTHING IS NEEDED">
+      <input type="password" placeholder="Password? NO NEED" id="txtPassword">
+
+      <button id="btnLogin" class="btn btn-secondary">Login Anonymously</button>
+      <button id="btnLogout" class="btn btn-action hide">Logout</button>
+    </div>
+    <script src="app3.js"></script>
+  </body>
+</html>
